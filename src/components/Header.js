@@ -2,7 +2,7 @@
 const Header = () => {
   return (
         <>
-            <header>
+            <header id="top">
                 <div className="collapse custom" id="navbarHeader">
                     <div className="container">
                     <div className="row">
@@ -19,12 +19,12 @@ const Header = () => {
                         <h4 className="text-white">Contact</h4>
                         <ul className="list-unstyled">
                             <li>
-                            <a href="#" className="text-white">
+                            <a href="https://x.com" className="text-white">
                                 Follow on Twitter
                             </a>
                             </li>
                             <li>
-                            <a href="#" className="text-white">
+                            <a href="https://x.com" className="text-white">
                                 Like on Facebook
                             </a>
                             </li>
@@ -35,7 +35,7 @@ const Header = () => {
                 </div>
                 <div className="navbar navbar-dark shadow-sm custom">
                     <div className="container">
-                    <a href="#" className="navbar-brand d-flex align-items-center">
+                    <a href="https://x.com" className="navbar-brand d-flex align-items-center">
                         <i className="fa fa-coffee" /> &nbsp;&nbsp;
                         <strong>Restaurant</strong>
                     </a>

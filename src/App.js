@@ -52,7 +52,7 @@ function App() {
     <main>
       <Banner/>
 
-      {data.length > 0 ?  <Content categories={data}/> : <Loader/>}
+      {data.length > 0 ?  <Content categories={data} /> : <Loader loading={loading}/>}
       
 
     </main>
