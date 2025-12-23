@@ -17,7 +17,7 @@ const Banner = ()=>{
             >
                 <div className="col">
                 <h1 className="text-center text-light mt-4">
-                    Browse our Range of Mouth-Watering Menu
+                    Mouth-Watering Menu
                 </h1>
                 </div>
             </div>
