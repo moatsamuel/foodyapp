@@ -8,6 +8,9 @@ jobs:
     steps:
     - name: 🚚 Get latest code
       uses: actions/checkout@v4
+    
+    - name: Update the browserlist
+      run: npx browserslist@latest --update-db
 
     - name: Use Node.js 22
       uses: actions/setup-node@v2
