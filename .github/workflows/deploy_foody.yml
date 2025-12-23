@@ -12,10 +12,10 @@ jobs:
     - name: Update the browserlist
       run: npx browserslist@latest --update-db
 
-    - name: Use Node.js 22
+    - name: Use Node.js 16
       uses: actions/setup-node@v2
       with:
-        node-version: '22.17.1'
+        node-version: '16'
       
     - name: 🔨 Build Project
       run: |
